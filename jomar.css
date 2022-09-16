@@ -1,0 +1,137 @@
+
+body{
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+#title{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0b8df1;
+  color: #fff;
+  padding-left: 24px;
+  width: 1400px;
+  margin: 50px 50px 0px 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  line-height: 1.2;
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px 0px 50px ;
+}
+
+#image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#img-div{
+  width: 400px;
+  height: 280px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: gray 0px 3px 3px 1px;
+}
+
+
+#img-caption{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  margin-bottom: 20px;
+}
+
+#img-caption .name-course {
+  padding-left: 20px;
+}
+
+#img-caption .name-course h3 {
+  line-height: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#img-caption .name-course p {
+  color: gray;
+}
+
+#tribute-link a{
+  text-decoration: none;
+  color: black;
+}
+
+#tribute-link a:hover{
+  text-decoration: none;
+  color: #0b8df1;
+}
+
+.update{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.u1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22b07d;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.u2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a0fd;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.quest{
+  border-bottom: gray 2px solid;
+  margin-bottom: px;
+  font-size: 18px;
+}
+
+.quest, .p2{
+  font-size: 18px;
+}
+
+#personal-info{
+  width: 920px;
+  height: 650px;
+  box-shadow: gray 0px 3px 3px 1px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 20px;
+  padding: 20px;
+
+}
+.info h4{
+  margin-bottom: 0px;
+}
+
+.info p{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#f5f5f5 ;
+  width: 910px;
+  height: 40px;
+  padding-left: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
